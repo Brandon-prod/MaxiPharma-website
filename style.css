@@ -409,6 +409,9 @@ li span {
 }
 
 /* Footer Copyright */
+.copyrightFooter {
+	margin-top: 2rem;
+}
 #copyright {
 	text-align: center;
 	color: #212121;
