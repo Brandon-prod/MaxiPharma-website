@@ -410,7 +410,7 @@ li span {
 
 /* Footer Copyright */
 .copyrightFooter {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 #copyright {
 	text-align: center;
@@ -632,8 +632,14 @@ li span {
 		font-size: 4vw;
 	}
 	.copyrightFooter {
+		margin-top: 2rem;
 		font-size: 3vw;
 		color: #212121;
+	}
+}
+@media (max-width: 450px) {
+	.footerLinks a {
+		font-size: 3.5vw;
 	}
 }
 /* ******************************************************************** */
