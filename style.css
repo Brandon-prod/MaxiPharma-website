@@ -329,7 +329,12 @@ li span {
 .google-map {
 	padding-bottom: 30%;
 	position: relative;
-	margin: 2rem;
+	margin-top: 2rem;
+	margin-right: 4rem;
+	margin-left: 4rem;
+	margin-bottom: 4rem;
+	box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+	border: 2px solid #fff;
 }
 
 .google-map iframe {
@@ -338,6 +343,7 @@ li span {
 	left: 0;
 	top: 0;
 	position: absolute;
+	border-radius: 6px;
 }
 
 /* Banner CSS */
