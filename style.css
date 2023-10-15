@@ -411,6 +411,7 @@ li span {
 /* Footer Copyright */
 #copyright {
 	text-align: center;
+	color: #212121;
 }
 
 /* ************************************************** */
@@ -629,7 +630,7 @@ li span {
 	}
 	.copyrightFooter {
 		font-size: 3vw;
-		color: #a1c4cf;
+		color: #212121;
 	}
 }
 /* ******************************************************************** */
