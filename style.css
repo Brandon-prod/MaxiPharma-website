@@ -104,7 +104,7 @@ html {
 .landing {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 2rem 5rem 0rem 5rem;
 	height: 100vh;
@@ -138,6 +138,7 @@ html {
 }
 
 .landingText .btn {
+	display: inline-block;
 	width: 7rem;
 	margin-top: 2rem;
 	padding: 0.8rem 1.125rem 0.8rem 1.125rem;
@@ -208,6 +209,10 @@ li span {
 }
 
 /* ----------- Services Section CSS ----------------- */
+.infoSection {
+	padding: 2rem 2rem 2rem;
+}
+
 .infoHeader {
 	text-align: center;
 	margin-bottom: 2.4rem;
@@ -225,7 +230,7 @@ li span {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	grid-gap: 5rem;
-	padding: 5rem;
+	/* padding: 5rem; */
 }
 
 .infoCards .card {
@@ -383,8 +388,12 @@ li span {
 		padding: 0 2rem 0rem;
 	}
 	.landing {
-		padding: 6rem 2rem 1.2rem;
+		padding: 7rem 2rem 1.2rem;
 		height: auto;
+	}
+	.landingText h1 {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 }
 
@@ -397,19 +406,22 @@ li span {
 	}
 	.landing {
 		flex-direction: column-reverse;
+		text-align: center;
 	}
 	.about {
 		flex-direction: column;
-		padding: 0rem 2rem;
+		padding: 2rem 2rem 0rem 0rem;
+		text-align: center;
 	}
 	.aboutList {
+		padding-top: 2rem;
 		margin: -2rem;
 	}
 	li p {
 		padding-left: 0rem;
 	}
 	.infoCards {
-		grid-gap: 2rem;
+		grid-gap: 5rem;
 		padding: 2rem;
 	}
 
@@ -495,17 +507,17 @@ li span {
 		left: 4.1rem;
 	}
 	.landing {
-		padding: 6.5rem 1rem 1.6rem;
+		padding: 6.5rem 1rem 3rem;
 	}
 	.landingText h1 {
-		font-size: 2.6rem;
+		font-size: 2.4rem;
 	}
 
 	.landing span {
-		font-size: 2.7rem;
+		font-size: 2.5rem;
 	}
 	.about {
-		padding: 0rem 1rem;
+		padding: 2rem 1rem;
 	}
 	.aboutText h1 {
 		font-size: 2.4rem;
@@ -518,11 +530,13 @@ li span {
 		width: 100%;
 	}
 	.aboutList {
-		padding: 0rem 1rem 0rem 0rem;
+		padding: 2rem 2rem 0rem 0rem;
+	}
+	.infoSection {
+		padding: 2rem 1rem;
 	}
 	.infoHeader h1 {
 		font-size: 2.4rem;
-		text-align: left;
 		padding: 0rem 1rem;
 	}
 	.infoSection .infoHeader span {
@@ -531,7 +545,7 @@ li span {
 	.infoCards .card {
 		/* width: 19.8rem;
 		height: 29rem; */
-		width: 315px;
+		width: 300px;
 		height: 470px;
 	}
 	.map {
@@ -540,7 +554,9 @@ li span {
 	.google-map {
 		/* padding-bottom: 30%; */
 		width: 18rem;
-		height: 10rem;
+		height: 15rem;
+		margin-top: 3rem;
+		margin-bottom: 5rem;
 	}
 
 	.bannerFollow h2 {
@@ -555,7 +571,7 @@ li span {
 		margin-right: 1rem;
 	}
 	.footerLinks a {
-		margin: 1rem;
+		margin: 0.5rem;
 	}
 
 	/* Footer Copyright */
