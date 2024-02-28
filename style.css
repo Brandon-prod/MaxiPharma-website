@@ -253,7 +253,7 @@ li span {
 	padding: 0 1.2rem;
 }
 
-.cardContent span {
+.cardContent span ul {
 	line-height: 30px;
 	opacity: 0.6;
 }
@@ -446,10 +446,21 @@ li span {
 		display: none;
 	}
 	.infoCards {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		justify-content: center;
+		align-items: center;
+		/* text-align: center; */
+	}
+	.infoCards .card {
+		margin: 0rem 1rem;
+	}
+	/* 	.infoCards {
 		grid-template-columns: repeat(1, 1fr);
 		justify-items: center;
 		align-items: center;
-	}
+	} */
 }
 
 @media only screen and (max-width: 600px) {
@@ -542,11 +553,21 @@ li span {
 	.infoSection .infoHeader span {
 		font-size: 2.5rem;
 	}
+	.cardContent {
+		top: 3.5rem;
+		padding: 0 1rem;
+	}
 	.infoCards .card {
 		/* width: 19.8rem;
 		height: 29rem; */
-		width: 300px;
-		height: 470px;
+		width: 310px;
+		height: 460px;
+	}
+	.cardContent span ul {
+		line-height: 28px;
+	}
+	.cardContent p {
+		line-height: 28px;
 	}
 	.map {
 		margin-bottom: 2rem;
